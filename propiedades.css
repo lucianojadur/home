@@ -1,0 +1,39 @@
+/***************************************************************************/
+/*HERENCIA*/
+/*
+Todo elemento hijo del elemento estilizado hereda dicho estilo por defecto
+*/
+
+body {
+	background-color: beige;
+	text-align: center;
+}
+/*Todo dentro de <body> va a tener este estilo a no ser que otra regla se imponga*/
+section {
+	color: blue;
+}
+/*Si tenemos, por ejemplo, uno o varios <div> DENTRO de algún <section>, va(n) a tener
+por defecto su texto de color azul*/
+
+
+
+/***************************************************************************/
+/*ESPECIFICIDAD*/
+/*
+	HARDCODEADO		IDs		CLASSs	   #ELEMENTOS ANIDADOS
+	|		  	| |		| |		   | |						|
+
+Ante cada ocurrencia, se agrega un 1 (o #elementos en el último caso)
+El mayor número conformado por las 4 cifras gana en especificación	
+*/
+
+div#userUrls {		/*userUrls es un id*/
+	color: red;
+}/*HC=0; ID=1; CL=0; #=1	=> 0101*/
+
+section.links li{	/*links es una clase*/
+	color: blue
+}/*HC=0; ID=0; CL=1; #=2 	=> 0012*/
+
+/*Como 101 > 12 gana la especificidad de p#userUrl => adopta el estilo de userUrl*/
+/*NOTA: VScode indica la especificidad del código si se pasa el mouse x encima*/
