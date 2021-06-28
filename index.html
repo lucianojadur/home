@@ -1,11 +1,74 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My own web page</title>
-</head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Luciano Jadur homepage</title>
+
+	<link id="style" rel="stylesheet"  type="text/css" href="./light.css">
+	<link id="switch" rel="stylesheet" type="text/css" href="switch.css">
+	
+	<style>
+		html {	/*HTML es padre del body y x ende de todo elemento incluido*/
+			font-family: 'Comfortaa';
+			height: 100%;
+			box-sizing: border-box;
+			margin-left: 150px;
+			margin-right: 150px;
+		}
+
+		#header {
+			font-family: 'Comfortaa', bold;
+			font-size: 30px;
+			height: 100%;
+			text-align: left;
+			box-sizing: border-box;
+			width: 100%;
+			padding: 15px;
+		}		
+	</style>
+	
+	<script src="changeElements.js"></script>
+	<script type="text/plain" id="texto_cambio">
+		Cambié el contenido del párrafo
+		<br>
+		:O
+	</script>
+	<!--<input type='file' accept='text/plain'>-->
+</head style="box-sizing: border-box">
+
 <body>
-    Hola Mundo!
+	<div id="header">
+		Home
+		<label class="switch">
+			<input type="checkbox" onchange="changeStyle()">
+			<span class="slider round"></span>
+		</label>
+	</div>
+	<div id="main">
+		</br>
+		<p id="parrafo1">
+			Este es un párrafo de prueba.
+			<br>
+			Hola, mundo!
+		</p>
+		<span class="text_1">
+			<button id="button1" onclick="flipTextContent('parrafo1', 'texto_cambio')">
+				Cambiar texto
+			</button>
+		</span>
+		<br>
+		<div class="helloworld" style="margin: 80px;">
+			Hello World !
+		</div>
+		<br>
+		
+	</div>
+	<footer style="font-family: 'Comfortaa'; font-size: 10px">
+		<table>
+			Sitio en desarrollo
+		</table>
+	</footer>
 </body>
 </html>

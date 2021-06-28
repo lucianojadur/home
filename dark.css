@@ -1,0 +1,81 @@
+/**/
+
+/*Open      */@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/*Nunito    */@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Lora      */@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Comfortaa */@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora:ital@0;1&family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Yellowtail*/@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+/*NEON*/
+/*	<text-shadow> requires 4 values, the first two of which represent the horizontal and vertical
+*	position of the shadow, respectively. The third value represents the size of the blur radius while the last value represents 
+*	the color of the shadow. To increase the size of the glow effect,
+*	we would increase the third value, which represents the blur radius
+*/
+
+
+@keyframes pulsate {
+	100% {
+	   text-shadow: 
+	/*	H 	V	BLUR-size SHADOW-color*/
+		0 	0	8px 	rgb(131, 130, 130),
+		0 	0	15px 	rgb(133, 133, 133),
+		0 	0	25px 	rgb(160, 160, 160),
+		0 	0	49px 	#0fa,
+		0 	0	86px 	#0fa,
+		0 	0	94px 	#0fa;
+	/*	0 	0	102px 	#0fa,	cuantos más valores de radio agrego (cada vez mayores) mayor es la iluminación
+		0 	0	151px 	#0fa;*/
+	}
+	0% {
+	   text-shadow: 
+		0 	0	3px 	rgb(131, 130, 130),
+		0 	0	5px 	rgb(133, 133, 133),
+		0 	0	10px 	rgb(160, 160, 160),
+		0 	0	20px 	#0fa,
+		0 	0	41px 	#0fa,
+		0 	0	92px 	#0fa;	
+	/*	0 	0	102px 	#0fa,
+		0 	0	151px 	#0fa;*/
+	}
+}
+
+html {	/*HTML es padre del body y x ende de todo elemento incluido*/
+	color: #ffffff;
+	background-image: linear-gradient(#0f0c09, #253837); 	/*DEGRADÉ*/
+}
+/*
+body{
+}
+*/
+#header {
+	color: aliceblue;
+	background-color: #0083C0;
+	border:#fff;
+} 
+
+
+#main {
+	/*color: darkslategrey;*/
+	padding: 50px;
+}
+
+.text_1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.helloworld {
+	color: #fff;
+	font-family: 'Yellowtail', cursive;
+	font-size: 40px;
+	text-align: center;
+	animation: pulsate 1.2s infinite alternate;
+}
+
+footer {
+	color: #0fa;
+	padding: 30px;
+	bottom: 100%;
+}

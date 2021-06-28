@@ -1,0 +1,48 @@
+
+/*Open      */@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/*Nunito    */@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Lora      */@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Comfortaa */@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora:ital@0;1&family=Nunito:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+/*Yellowtail*/@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+
+html {	/*HTML es padre del body y x ende de todo elemento incluido*/
+	color: #1e1f1f;
+	margin-right: 100px;
+	background-image: linear-gradient(#e9e9e9, #e7d583);
+}
+/*
+body{
+
+}*/
+
+#header {
+	color: aliceblue;
+	background-color: #0083C0;
+	border:#fff;
+} 
+
+#main {
+	/*color: darkslategrey;*/
+	padding: 50px;
+}
+
+.text_1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.helloworld {
+	color: rgb(3, 158, 106);
+	font-family: 'Yellowtail', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+footer {
+	color: rgb(0, 116, 77);
+	font-family: 'Comfortaa';
+	padding: 30px;
+	bottom: 100%;
+}
