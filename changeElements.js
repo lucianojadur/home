@@ -1,6 +1,6 @@
 
-const darkPath = /*'file:///home/luciano/Escritorio/frontend*/'/dark.css';
-const lightPath = /*'file:///home/luciano/Escritorio/frontend*/'/light.css';
+const darkPath = /*'file:///home/luciano/Escritorio/frontend*/'dark.css';
+const lightPath = /*'file:///home/luciano/Escritorio/frontend*/'light.css';
 
 
 function showText(id, text){
