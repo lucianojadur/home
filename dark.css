@@ -43,7 +43,7 @@
 
 html {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #ffffff;
-	background-image: linear-gradient(#0f0c09, #253837); 	/*DEGRADÉ*/
+	background-image: linear-gradient(#000000, #242c2c); 	/*DEGRADÉ*/
 }
 /*
 body{
@@ -67,7 +67,7 @@ body{
 }
 
 .helloworld {
-	color: #fff;
+	color: rgb(171, 248, 229);
 	font-family: 'Yellowtail', cursive;
 	font-size: 40px;
 	text-align: center;

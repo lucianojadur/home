@@ -10,7 +10,7 @@
 html {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #1e1f1f;
 	margin-right: 100px;
-	background-image: linear-gradient(#e9e9e9, #e7d583);
+	background-image: linear-gradient(#faf5f5, #d3d3d3);
 }
 /*
 body{
@@ -33,11 +33,35 @@ body{
 	font-size: 20px;
 }
 
+@keyframes pulsate {
+	100% {
+	   text-shadow: 
+	/*	H 	V	BLUR-size SHADOW-color*/
+		0 	0	8px 	rgb(255, 179, 236),
+		0 	0	15px 	rgb(255, 141, 221),
+		0 	0	25px 	rgb(255, 141, 221),
+		0 	0	49px 	rgb(255, 0, 242),
+		0 	0	86px 	rgb(255, 0, 242),
+		0 	0	94px 	rgb(255, 0, 242);
+	}
+	0% {
+	   text-shadow: 
+		0 	0	3px 	rgb(131, 130, 130),
+		0 	0	5px 	rgb(151, 99, 140),
+		0 	0	10px 	rgb(153, 107, 146),
+		0 	0	20px 	rgb(255, 0, 242),
+		0 	0	41px 	rgb(255, 0, 242),
+		0 	0	92px 	rgb(255, 0, 242);	
+	}
+}
+
 .helloworld {
-	color: rgb(3, 158, 106);
+	color: rgb(158, 87, 134);
 	font-family: 'Yellowtail', cursive;
 	font-size: 40px;
 	text-align: center;
+	text-align: center;
+	animation: pulsate 1.2s infinite alternate;
 }
 
 footer {
