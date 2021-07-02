@@ -4,16 +4,29 @@ html {
 	height: 100%;
 	box-sizing: border-box;
 }
+
 body{
 	font-family: 'Comfortaa', bold;
 }
-/*
-#header {
-	font-family: 'Comfortaa', bold;
-	font-size: 30px;
-	height: 100%;
-	text-align: left;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 15px;
-}*/
+
+.helloworld {
+	font-family: 'Yellowtail', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+
+.sites {
+	padding-left: 40px;
+}
+
+.icon {
+	height: 40px;
+	border-radius: 8px;
+	background: transparent;
+	background-color: transparent;
+	background-image: none;
+}
+
+footer {
+	padding-bottom: 0%;
+}
