@@ -23,5 +23,6 @@ function changeStyle(){
 	//y reemplazar el valor actual de href por ese nombre
     let absURL = urlstring.href.replace(/\/$/, '').split('/');
     let relURL = absURL[absURL.length - 1]; 	//última cadena del path (nombre del fichero)
-    urlstring.href = (relURL === darkPath) ? lightPath : darkPath;
+    urlstring.href = 'css/';    
+    urlstring.href += (relURL === darkPath) ? lightPath : darkPath;
 }
