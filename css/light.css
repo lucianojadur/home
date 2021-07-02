@@ -12,11 +12,18 @@ body {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	background-image: linear-gradient(#faf5f5, #d3d3d3);
 }
 
-#header {
+/*Navbar*/
+nav {
 	color: aliceblue;
 	background-color: #0083C0;
 	border:#fff;
 } 
+
+	/*Hipervínculos dentro del navbar*/
+	.navbar-dark .navbar-nav .nav-link {
+		color: rgb(255 255 255);
+	}
+
 
 #main {
 	/*color: darkslategrey;*/
