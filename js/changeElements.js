@@ -14,7 +14,7 @@ function flipTextContent(id1, id2){
 }
 
 function changeStyle(){
-    let urlstring = document.getElementById('style');
+    let urlstring = document.getElementById('mode');
 	//
 	//Aunque en el doc aparezca "href='nombre.arcihvo'" el valor real de href es la
 	//ruta ABSOLUTA.
@@ -22,7 +22,6 @@ function changeStyle(){
 	//por lo que necesito rescatar sólo el nombre del archivo (relURL)
 	//y reemplazar el valor actual de href por ese nombre
     let absURL = urlstring.href.replace(/\/$/, '').split('/');
-    let relURL = absURL[absURL.length - 1]; 	//última cadena del path (nombre del fichero)
-    urlstring.href = 'css/';    
-    urlstring.href += (relURL === darkPath) ? lightPath : darkPath;
+    let relURL = absURL[absURL.length - 1]; 
+    urlstring.href = (relURL === darkPath) ? 'css/' + lightPath : 'css/' + darkPath;
 }
