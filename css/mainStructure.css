@@ -1,12 +1,15 @@
 /*HTML es padre del body y x ende de todo elemento incluido*/
-html {	
+/*html {	
 	font-family: 'Comfortaa';
 	height: 100%;
 	box-sizing: border-box;
 	margin-left: 150px;
 	margin-right: 150px;
+}*/
+body{
+	font-family: 'Comfortaa', bold;
 }
-
+/*
 #header {
 	font-family: 'Comfortaa', bold;
 	font-size: 30px;
@@ -15,4 +18,4 @@ html {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 15px;
-}
+}*/
