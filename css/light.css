@@ -7,15 +7,10 @@
 
 
 
-html {	/*HTML es padre del body y x ende de todo elemento incluido*/
+body {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #1e1f1f;
-	margin-right: 100px;
 	background-image: linear-gradient(#faf5f5, #d3d3d3);
 }
-/*
-body{
-
-}*/
 
 #header {
 	color: aliceblue;

@@ -41,23 +41,18 @@
 	}
 }
 
-html {	/*HTML es padre del body y x ende de todo elemento incluido*/
+body {
 	color: #ffffff;
 	background-image: linear-gradient(#000000, #242c2c); 	/*DEGRADÉ*/
 }
-/*
-body{
-}
-*/
+
 #header {
 	color: aliceblue;
 	background-color: #0083C0;
 	border:#fff;
 } 
 
-
 #main {
-	/*color: darkslategrey;*/
 	padding: 50px;
 }
 
