@@ -43,7 +43,7 @@
 
 body {
 	color: #ffffff;
-	background-image: linear-gradient(#000000, #242c2c); 	/*DEGRADÉ*/
+	background-image: linear-gradient(#141818, #141818); 	/*DEGRADÉ*/
 }
 
 
@@ -60,15 +60,12 @@ nav {
 	}
 
 
-
-
 .helloworld {
 	color: rgb(226, 247, 242);
 	animation: pulsate 1.2s infinite alternate;
+	
 }
 
 footer {
 	color: #0fa;
-	padding: 30px;
-	bottom: 100%;
 }

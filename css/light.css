@@ -9,7 +9,7 @@
 
 body {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #1e1f1f;
-	background-image: linear-gradient(#faf5f5, #dddddd);
+	background-image: linear-gradient(#ffffff, #ffffff);
 }
 
 /*Navbar*/
@@ -25,10 +25,6 @@ nav {
 	}
 
 
-#main {
-	/*color: darkslategrey;*/
-	/*padding: 50px;*/
-}
 
 
 @keyframes pulsate {
@@ -61,6 +57,4 @@ nav {
 footer {
 	color: rgb(0, 116, 77);
 	font-family: 'Comfortaa';
-	padding: 30px;
-	bottom: 100%;
 }

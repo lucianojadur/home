@@ -1,7 +1,6 @@
 /*HTML es padre del body y x ende de todo elemento incluido*/
 html {	
 	font-family: 'Comfortaa';
-	height: 100%;
 }
 
 body{
@@ -9,12 +8,17 @@ body{
 	box-sizing: border-box;
 }
 
+
+#main {
+	/**/
+}
+
 .helloworld {
 	box-sizing: border-box;
 	font-family: 'Yellowtail', cursive;
 	font-size: 80px;
 	text-align: center;
-	padding: 50px;
+	padding: 80px;
 }
 
 .sites {
@@ -33,7 +37,6 @@ body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 }
-
 footer {
-	padding-bottom: 0%;
+	padding: 0px;
 }
