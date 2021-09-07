@@ -9,7 +9,7 @@
 
 body {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #1e1f1f;
-	background-image: linear-gradient(#faf5f5, #d3d3d3);
+	background-image: linear-gradient(#faf5f5, #dddddd);
 }
 
 /*Navbar*/
@@ -27,38 +27,34 @@ nav {
 
 #main {
 	/*color: darkslategrey;*/
-	padding: 50px;
+	/*padding: 50px;*/
 }
 
-.text_1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 20px;
-}
 
 @keyframes pulsate {
 	100% {
 	   text-shadow: 
 	/*	H 	V	BLUR-size SHADOW-color*/
-		0 	0	8px 	rgb(255, 179, 236),
-		0 	0	15px 	rgb(255, 141, 221),
-		0 	0	25px 	rgb(255, 141, 221),
-		0 	0	49px 	rgb(255, 0, 242),
-		0 	0	86px 	rgb(255, 0, 242),
-		0 	0	94px 	rgb(255, 0, 242);
+		0 	0	8px 	rgb(87, 144, 182),
+		0 	0	15px 	rgb(68, 118, 226),
+		0 	0	25px 	rgb(13, 122, 155),
+		0 	0	49px 	rgb(42, 113, 206),
+		0 	0	86px 	rgb(38, 207, 193),
+		0 	0	94px 	rgb(11, 179, 123);
 	}
 	0% {
 	   text-shadow: 
-		0 	0	3px 	rgb(131, 130, 130),
-		0 	0	5px 	rgb(151, 99, 140),
-		0 	0	10px 	rgb(153, 107, 146),
-		0 	0	20px 	rgb(255, 0, 242),
-		0 	0	41px 	rgb(255, 0, 242),
-		0 	0	92px 	rgb(255, 0, 242);	
+		0 	0	3px 	rgb(37, 40, 236),
+		0 	0	5px 	rgb(153, 59, 95),
+		0 	0	10px 	rgb(160, 13, 62),
+		0 	0	20px 	rgb(216, 13, 46),
+		0 	0	41px 	rgb(150, 7, 62),
+		0 	0	92px 	rgb(117, 10, 189);	
 	}
 }
 
 .helloworld {
-	color: rgb(228, 133, 196);
+	color: rgb(122, 191, 247);
 	animation: pulsate 1.2s infinite alternate;
 }
 

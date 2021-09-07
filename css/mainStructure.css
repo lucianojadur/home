@@ -2,17 +2,19 @@
 html {	
 	font-family: 'Comfortaa';
 	height: 100%;
-	box-sizing: border-box;
 }
 
 body{
 	font-family: 'Comfortaa', bold;
+	box-sizing: border-box;
 }
 
 .helloworld {
+	box-sizing: border-box;
 	font-family: 'Yellowtail', cursive;
 	font-size: 80px;
 	text-align: center;
+	padding: 50px;
 }
 
 .sites {
@@ -25,6 +27,11 @@ body{
 	background: transparent;
 	background-color: transparent;
 	background-image: none;
+}
+
+.text_1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
 }
 
 footer {
