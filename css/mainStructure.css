@@ -1,24 +1,42 @@
 /*HTML es padre del body y x ende de todo elemento incluido*/
 html {	
 	font-family: 'Comfortaa';
+	width: 100vw;
+	height: 100%;
 }
 
 body{
 	font-family: 'Comfortaa', bold;
 	box-sizing: border-box;
+	height: 100%;
 }
 
 
 #main {
-	/**/
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+
+.main_Text{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.button_text {
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
 }
 
 .helloworld {
 	box-sizing: border-box;
 	font-family: 'Yellowtail', cursive;
 	font-size: 80px;
+	position: static;
 	text-align: center;
-	padding: 80px;
+	padding: 40px;
 }
 
 .sites {
@@ -33,10 +51,11 @@ body{
 	background-image: none;
 }
 
-.text_1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 20px;
-}
+
 footer {
+	position: fixed;
+	bottom: 10px;
+	margin-top: 30px;
 	padding: 0px;
+	font-size: 10px
 }

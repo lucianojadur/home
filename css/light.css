@@ -18,12 +18,10 @@ nav {
 	background-color: #0083C0;
 	border:#fff;
 } 
-
 	/*Hipervínculos dentro del navbar*/
 	.navbar-dark .navbar-nav .nav-link {
 		color: rgb(255 255 255);
 	}
-
 
 
 
@@ -34,7 +32,7 @@ nav {
 		0 	0	8px 	rgb(87, 144, 182),
 		0 	0	15px 	rgb(68, 118, 226),
 		0 	0	25px 	rgb(13, 122, 155),
-		0 	0	49px 	rgb(42, 113, 206),
+		0 	0	49px 	rgb(3, 126, 95),
 		0 	0	86px 	rgb(38, 207, 193),
 		0 	0	94px 	rgb(11, 179, 123);
 	}
@@ -49,9 +47,18 @@ nav {
 	}
 }
 
+.bgimg{
+	width: 50%;
+}
+
+.container_img{ 
+	position: relative;
+	text-align: center;
+}
+
 .helloworld {
-	color: rgb(122, 191, 247);
-	animation: pulsate 1.2s infinite alternate;
+	color: rgb(208, 219, 228);
+	animation: pulsate 1.6s infinite alternate;
 }
 
 footer {
