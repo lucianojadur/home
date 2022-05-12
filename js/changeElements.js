@@ -1,3 +1,8 @@
+const LOCAL_HREFS = [
+    "index.html",
+    "contact.html",
+    "sites.html"
+]
 
 const darkPath = 'dark.css';
 const lightPath = 'light.css';
@@ -12,6 +17,7 @@ function flipTextContent(id1, id2){
     document.getElementById(id1).innerHTML = document.getElementById(id2).innerHTML;
     document.getElementById(id2).innerHTML = aux;
 }
+
 
 function changeStyle(){
     let urlstring = document.getElementById('mode');

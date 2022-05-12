@@ -2,26 +2,40 @@
 html {	
 	font-family: 'Comfortaa';
 	width: 100vw;
-	height: 100%;
+	height: 100vw;
 }
 
 body{
+	position: relative;
+	box-sizing: border-box;
 	font-family: 'Comfortaa', bold;
 	box-sizing: border-box;
-	height: 100%;
+	height: inherit;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 #main {
+	box-sizing: border-box;
+	align-items: center;
+	padding: 20px;
 	margin-top: 50px;
 	margin-bottom: 0px;
-	margin-left: 50px;
 }
 
-.main_Text{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 50px;
+#helloworld {
+	box-sizing: border-box;
+	font-family: 'Yellowtail', cursive;
+	font-size: 80px;
+	position: static;
+	text-align: center;
+	padding: 80px;
+}
+
+.main_text{
+	margin: 20px;
 }
 
 .button_text {
@@ -30,20 +44,12 @@ body{
 	font-size: 20px;
 }
 
-.helloworld {
-	box-sizing: border-box;
-	font-family: 'Yellowtail', cursive;
-	font-size: 80px;
-	position: static;
-	text-align: center;
-	padding: 40px;
-}
-
 .sites {
 	padding-left: 40px;
 }
 
 .icon {
+	padding: 5px;
 	height: 40px;
 	border-radius: 8px;
 	background: transparent;
@@ -53,10 +59,26 @@ body{
 
 
 footer {
-	position: fixed;
+	position: fixed; /*absolute para que quede abajo y no fijo en la ventana*/
+	box-sizing: border-box;
+	width: 100%;
 	bottom: 10px;
-	margin-left: 20px;
-	margin-top: 30px;
 	padding: 0px;
-	font-size: 10px
+	font-size: 10px;
+	height: 30px;
+}
+
+.footer_ad {
+	display: inline-block;
+	padding: 10px;
+}
+
+#dev_ad {
+	text-align: left;
+}
+
+#copyright {
+	float: center;
+	text-align: right;
+	padding-left: 30px;
 }

@@ -6,10 +6,14 @@
 /*Yellowtail*/@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 
+html {
+	background-image: linear-gradient(#e6e9e9, #b2c4e2);
+}
+
 
 body {	/*HTML es padre del body y x ende de todo elemento incluido*/
 	color: #1e1f1f;
-	background-image: linear-gradient(#ffffff, #ffffff);
+	background-image: linear-gradient(#ffffff, #ccecf7);
 }
 
 /*Navbar*/
@@ -18,34 +22,15 @@ nav {
 	background-color: #0083C0;
 	border:#fff;
 } 
-	/*Hipervínculos dentro del navbar*/
-	.navbar-dark .navbar-nav .nav-link {
-		color: rgb(255 255 255);
-	}
 
-
-
-@keyframes pulsate {
-	100% {
-	   text-shadow: 
-	/*	H 	V	BLUR-size SHADOW-color*/
-		0 	0	8px 	rgb(87, 144, 182),
-		0 	0	15px 	rgb(68, 118, 226),
-		0 	0	25px 	rgb(13, 122, 155),
-		0 	0	49px 	rgb(3, 126, 95),
-		0 	0	86px 	rgb(38, 207, 193),
-		0 	0	94px 	rgb(11, 179, 123);
-	}
-	0% {
-	   text-shadow: 
-		0 	0	3px 	rgb(37, 40, 236),
-		0 	0	5px 	rgb(153, 59, 95),
-		0 	0	10px 	rgb(160, 13, 62),
-		0 	0	20px 	rgb(216, 13, 46),
-		0 	0	41px 	rgb(150, 7, 62),
-		0 	0	92px 	rgb(117, 10, 189);	
-	}
+/*Hipervínculos dentro del navbar*/
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255 255 255);
 }
+
+
+
+
 
 .bgimg{
 	width: 50%;
@@ -56,9 +41,8 @@ nav {
 	text-align: center;
 }
 
-.helloworld {
-	color: rgb(208, 219, 228);
-	animation: pulsate 1.6s infinite alternate;
+#helloworld {
+	color: rgb(235, 134, 10);
 }
 
 footer {
